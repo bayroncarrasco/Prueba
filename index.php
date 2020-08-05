@@ -23,23 +23,23 @@
 <body id="page-top">
 <!-- Contenido -->
   <!-- Menu -->
-  <div w3-include-html="modulos/menu/menu.html"></div>
+  <?php include 'modulos/menu/menu.php';?>
   <!-- Fin Menu-->
 
   <!-- Cabecera Principal -->
-  <div w3-include-html="modulos/cabecera/cabecera.html"></div>
+  <?php include 'modulos/cabecera/cabecera.php';?>
   <!-- Fin Cabecera Principal -->
 
   <!-- Seccion Portafolio -->
-  <div w3-include-html="modulos/portafolio/portafolio.html"></div>
+  <?php include 'modulos/portafolio/portafolio.php';?>
   <!-- Fin Seccion Portafolio-->
 
   <!-- Footer -->
-  <div w3-include-html="modulos/footer/footer.html"></div>  
+  <?php include 'modulos/footer/footer.php';?> 
   <!-- Fin Footer -->
 
   <!-- Sección Copyright -->
-  <div w3-include-html="modulos/copyright/copyright.html"></div>  
+  <?php include 'modulos/copyright/copyright.php';?>
   <!-- Sección Copyright -->
 
   <!-- Scroll to Top Button -->
@@ -65,11 +65,6 @@
 
   <!-- Custom scripts for this template -->
   <script src="js/freelancer.min.js"></script>
-
-  <!-- Añadir include
-  <script src="js/incluir_pagina.js"></script>
-  <script>includeHTML();</script>
-  Fin Java Script -->
 
 </body>
 
