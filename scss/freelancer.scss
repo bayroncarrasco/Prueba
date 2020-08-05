@@ -5,15 +5,15 @@
 @import "bootstrap/scss/bootstrap.scss";
 
 // Import base styles
-@import "base/_page";
+@import "base/page.scss";
 
 // Import components styles
-@import "components/_divider.scss";
-@import "components/_buttons.scss";
+@import "components/divider.scss";
+@import "components/buttons.scss";
 
 // Import layout styles
-@import "layout/_navbar.scss";
-@import "layout/_masthead.scss";
-@import "layout/_portfolio.scss";
-@import "layout/_contact.scss";
-@import "layout/_footer.scss";
+@import "layout/navbar.scss";
+@import "layout/masthead.scss";
+@import "layout/portfolio.scss";
+@import "layout/contact.scss";
+@import "layout/footer.scss";
